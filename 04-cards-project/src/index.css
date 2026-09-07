@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.parent {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(22, 22, 22);
+  padding: 100px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card {
+ border-radius: 35px;
+  height: 320px;
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} 
+
+.card .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.top img{
+   height: 40px;
+   width: 40px;
+   border-radius: 50%; 
+   border: 1px solid #dadada;
+}
+.top button{
+  display: flex;
+  align-items:center;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  padding: 3px 6px;
+  font-size: 10px;
+  gap: 3px;
+  color: rgb(24, 23, 23);
+}
+
+
+.buttom{
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  border-top: 1px solid #b1b1b1;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.center h3{
+  font-size: 15px;
+  font-weight: 500px;
+}
+
+.center h3 span{
+  font-size: 10px;
+  font-weight: 500px;
+  color: #888888;
+}
+
+.center h2 {
+  font-size: 20px;
+}
+.center .main{
+  display: flex;
+  gap:5px;
+  margin-top: 10px;
+}
+.center .main h4{
+  font-size: 12px;
+  background-color: #dfdcdf;
+  color: rgb(24, 23, 23);
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 2px 4px;
+}
+.buttom button {
+  background-color: rgb(17, 17, 17);
+  color: rgb(245, 239, 239);
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  
+}
+.buttom button:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+.buttom h3{
+  font-size: 18px;
+}
+.buttom p{
+  font-size: 10px;
+  color: #888888;
+}
+
